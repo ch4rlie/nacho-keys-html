@@ -54,6 +54,7 @@ header .container {
 }
 nav.trading {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   color: #fff;
@@ -63,7 +64,10 @@ nav.trading {
 }
 @media (max-width: 650px) {
   nav.trading span {
-    display: none;
+    flex: 0 1 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4px;
   }
 }
 nav.trading a {
@@ -82,7 +86,6 @@ nav.trading a img {
 }
 @media (max-width: 650px) {
   nav.trading a {
-    font-size: 0;
   }
 }
 nav.trading a img {
