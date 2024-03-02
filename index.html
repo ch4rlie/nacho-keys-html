@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nacho Keys Nacho Coins - Get Down with DeFi</title>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="style.css" rel="stylesheet">
+
+	<script>
+ let text = document.getElementById('contractID').innerHTML;
+  const copyContent = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Content copied to clipboard');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }
+	</script>
+  </head>
+
+  <body>
+    <div class="top-stripe">
+        <strong>Contract Address:</strong> <span id="contractID">0x8B5C1c2cB52dfb471c3ed758f6e863364636bd75</span>  
+    </div>
+    <header>
+      <div class="container flexed">
+        <div class="logo">
+          <a href="/" class="flexed"
+            ><img
+              src="images/plain-nacho.png"
+              height="50"
+              width="50"
+              alt="Nacho Keys Logo"
+            /><h5>$NACHO</h5></a
+          >
+        </div>
+
+        <nav>
+          <span class="trade">Trading Pairs:</span>
+		  <a href="https://dexscreener.com/pulsechain/0xde7d45441e5f107cc89c6e8100ee7d24b97198be" target="_blank"> <img src="images/usdc.svg" height="30" width="30" alt="USDC/NACHO"/>USDC/NACHO</a>
+		<a href="https://dexscreener.com/pulsechain/0x32c39fbddcdb646a384786b27be5ca950b590469" target="_blank"><img src="images/dai.svg" height="30" width="30" alt="DAI/NACHO"/>DAI/NACHO</a>
+			<a href="https://dexscreener.com/pulsechain/0x052e8b050a04f93ef525f586bae9f9fb5325f8c5" target="_blank"><img src="images/plsx.png" height="30" alt="PLSX/NACHO"/>PLSX/NACHO</a>
+			<a href="https://dexscreener.com/pulsechain/0x9bf99d869c58583dfa65b46a8278defc0f81aea9" target="_blank"><img src="images/hex.svg" height="30" alt="eHEX/NACHO"/>eHEX/NACHO</a>
+				
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+        <div class="flexed">
+            <img
+              src="images/text-and-character.png"
+              alt="Nacho Character"
+            />
+        </div>
+    </section>
+
+    <section class="three-items">
+      <div class="container">
+        <div class="flexed">
+          <div class="item">
+            <h3>
+              1st PSA Coin
+            </h3>
+            <p>
+              Public Service Announcement - Its time to spread the word to get off centralized exchanges. Your
+              money isnt safe there. Embrace true DeFI.
+            </p>
+          </div>
+          <div class="item">
+            <h3>True DeFi</h3>
+            <p>
+              A centralized exchange can wipe out your funds at any moment defeating the purpose of crypto - decentralized finance.
+            </h3>
+          </div>
+          <div class="item">
+            <h3>
+                Win or Lose Yourself
+            </h3>
+            <p>Give yourself the chance to win or lose your own money and not be wiped out by a corrupt, hacked, or bankrupt exchange.</p>
+          </div>
+		  <div class="item">
+            <h3>
+                HOLD
+            </h3>
+            <p>As long as you hold your own keys in your own wallet your crypto is safe. Hold your keys, hold $NACHO!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section id="intro">
+		<div class="container">
+			<h2><span>Public Service Announcement</span>The First PSA Token</h2>
+			<h3 style="text-align: center;">$NACHO Keys... Nacho Coins</h3>
+
+			<div class="flexed">
+				<div class="item">
+					<h3>1. Do you own Crypto?</h3>
+					<h4 class="green">Awesome Bro!</h4>
+				</div>
+				<div class="item">
+					<h3>2. Do you know what "keys" are?</h3>
+					<h4 class="warning">Hope so!</h4>
+				</div>
+				<div class="item">
+					<h3>3. Is your crypto on a centralized exchange?</h3>
+					<h4 class="red">Uhoh</h4>
+				</div>
+				<div class="item">
+					<h3>4. Do you want to embrace DeFi?</h3>
+					<h4 class="green">F Yeah!</h4>
+				</div>
+				<div class="item">
+					<h3>5. Have you ever heard of self custody?</h3>
+					<h4 class="warning">Get reading!</h4>
+				</div>
+				<div class="item">
+					<h3>6. Do you know how to get a DeFi wallet?</h3>
+					<h4 class="green">We'll help!</h4>
+				</div>
+			</div>
+
+			<p class="large-warning">If you don't have your keys... keep reading to educate yourself on how to setup your own wallet.<br><br><strong>HOLD $NACHO and HOLD your KEYS!</strong></p>
+
+		</div>
+	</section>
+
+	<section id="centralized">
+		<div class="container">
+			<h2>Dump Centralized Exchanges</h2>
+			<div class="flexed">
+				<div class="text">
+					<h3>2 Uses</h3>
+					<p>Centrailized exchanges should only be used as a means to get your fiat currency such as United States Dollars (USD) from your bank account and into a crypto coin. Eventually to also get money back into your bank account after you've made millions. </p>
+					<h3>Don't Trade</h3>
+					<p>They SHOULD NOT be used to hold or trade crypto. Centralized exchanges defeat the entire purpose of decentralized finance - they can sieze your crypto, freeze your account, make terrible decisions and go bankrupt, or any number of things.</p> 
+					<h3>Hold your Keys</h3>
+					<p>The beauty of DeFi and crypto is that if you hold the keys to your own wallet, no one can take your money away from you. You are in complete control. You are insulated from the greed and corruption of others.</p>
+					<h3>Freedom</h3>
+					<p>Hey lets be honest you might invest in $hit coins or gamble on some lotto tokens that drop 99% to $0... however thats your perogitive!!! You should be in control of your own keys. We are rooting for you to get a Lambo!</p>
+				</div>
+				<div class="image">
+					<img src="images/vault.png" alt="Centralized Exchange Nachos">
+				</div>
+			</div>
+		
+		</div>
+	</section>
+
+	<section id="professors">
+		<div class="container">
+			<h2>Meet the Professors</h2>
+			<div class="flexed">
+				<div class="item">
+					<img src="images/jalepaneo.png" alt="Jalepaneo">
+					<h3>Juanita</h3>
+					<p>DeFi Wallet's</p>
+				</div>
+				<div class="item">
+					<img src="images/cheese.png" alt="Cheese">
+					<h3>Chancey Cheese</h3>
+					<p>Bridging Networks</p>
+				</div>
+				<div class="item">
+					<img src="images/onion.png" alt="Onion">
+					<h3>Orion</h3>
+					<p>Swapping Tokens</p>
+				</div>
+				<div class="item">
+					<img src="images/olive.png" alt="Olive">
+					<h3>Olivia</h3>
+					<p>Security Best Practices</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="getnacho">
+		<div class="container">
+			<h2>Get Going Easy</h2>
+			<div class="flexed">
+				<div class="item">
+					<p><h4>ON THE EXCHANGE</h4> Get USDC, DAI, or ETH on a centralized exchange like Coinbase, Binance, or any other centralized exchange. This is where you are transfering money in from your bank account and getting crypto. Now its time to hurry out!</p>
+					
+					<img src="images/exchangelogos.png" alt="Crypto Exchange Logos">
+				</div>
+				<div class="item">
+					<h4>Setup a wallet</h4>
+					<p>Now your in the game, you will <strong> HOLD YOUR OWN KEYS</strong>. Metamask is easy to get started with. Here is an indepth video to learn all the ins and outs of Metamask. Or if you are more geared towards reading, just visit <a href="https://support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask" target="_blank">MetaMask's how-to on their website</a>.</p>
+					
+
+					<div>
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TNZngOM9jk4?si=090LxUrC0SKU6pII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					
+				</div>
+				<div class="item">
+					<h4>Bridge Over to PulseChain</h4>
+					<p>Now you have crypto on the Ethereum network, the fees are high there so its time to get over to a better network with low fees. Lets move over to PulseChain. The best way is just to download the bridge yourself and cut out all the middlemen. But first just watch this video for an overview of the process.</p>
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OQym3SH6A6I?si=OQYMeAFgr77G9J6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<div class="item">
+					<h4>Swapping</h4>
+					<p>Now that you are on the PulseChain network, you can swap whatever you bridged over, lets say USDC for NACHO or PLS or whatever youd like. Here is an overview of how to do so: (we'll have a dedicated NACHO video soon)</p>
+
+					<div>
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l02e51_GtNk?si=8kkv4-UC1zK8uPcL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="item">
+					<h4>Swap for NACHO</h4>
+					<p>Add the token to metamask <span class="caddress">0x8B5C1c2cB52dfb471c3ed758f6e863364636bd75</span> and use the swapping software or website to swap in! Then start adding liquidity to the NACHO/USDC or NACHO/DAI pairs to help the cause!</p>
+					<img
+          src="images/nacho-coin-text.png"
+          alt="$NACHO"
+          style="max-width: 250px; height: auto"
+        />
+				</div>
+				<div class="item">
+					<h2>Now you're holding your own keys and holding $NACHO.</h2>
+					<h3>After you get comfortable, its time to DeGen and make some $$$. </h3>
+<h3>We will get to that later ;)</h3>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+
+	<section id="news">
+		<div class="container">
+			<h2>Who's getting cheesed?</h2>
+			<h3>If they're Nacho Keys they're Nacho Coins</h3>
+
+			<div class="tiles">
+				<a href="https://www.cnbc.com/2024/02/28/coinbase-users-see-0-balance-after-crypto-trading-app-suffers-glitch.html" class="tile">
+					<img src="images/news1.jpg" alt="Coinbase users see $0 balance after crypto-trading app suffers glitch
+					">
+					<h4>Coinbase users see $0 balance after crypto-trading app suffers glitch
+					</h4>
+					<p class="desc">Coinbase suffered a glitch on Wednesday that left many users seeing a zero balance in their account.
+						Bitcoin saw its price drop by about $2,800 in a matter of minutes as reports of an outage surfaced.</p>
+					<p class="read-more">View Article</p>
+				</a>
+				<a href="https://www.forbes.com/sites/digital-assets/2023/11/09/ftx-takes-its-place-among-historys-most-infamous-financial-scandals/?sh=383c8e6e64b7" class="tile">
+					<img src="images/news2.jpg" alt="FTX Takes Its Place Among History's Most Infamous Financial Scandals
+					">
+					<h4>FTX Takes Its Place Among History's Most Infamous Financial Scandals
+					</h4>
+					<p class="desc">Last week marked a significant event in the world of cryptocurrency as Sam Bankman-Fried, the once-lauded founder of FTX, a leading cryptocurrency exchange, was found guilty of fraud by a New York jury.</p>
+					<p class="read-more">View Article</p>
+				</a>
+				<a href="https://www.coindesk.com/policy/2024/03/01/nigeria-government-demands-10b-from-crypto-exchange-binance-bbc/" class="tile">
+					<img src="images/news3.jpg" alt="Nigeria Government Demands $10B From Crypto Exchange Binance: BBC
+					">
+					<h4>Nigeria Government Demands $10B From Crypto Exchange Binance: BBC
+					</h4>
+					<p class="desc">Binance set an unofficial exchange rate and contributed to economic disruption in Nigeria, a presidential spokesperson said.
+						The presidential spokesperson denied an amount had been set, People's Gazette reported later.</p>
+					<p class="read-more">View Article</p>
+				</a>
+				<a href="https://www.coindesk.com/business/2021/02/25/coinbase-defi-could-hurt-us-and-us-regulations-make-it-hard-to-fight-back/" class="tile">
+					<img src="images/news4.jpg" alt="Coinbase: DeFi Could Hurt Us and US Regulations Make It Hard to Fight Back
+					">
+					<h4>Coinbase: DeFi Could Hurt Us and US Regulations Make It Hard to Fight Back
+
+					</h4>
+					<p class="desc">The top U.S.-based cryptocurrency exchange, Coinbase, is cautioning investors that U.S. regulators may inhibit its ability to compete with rivals in decentralized finance (DeFi).
+					</p>
+					<p class="read-more">View Article</p>
+				</a>
+				<a href="https://cointelegraph.com/learn/centralized-vs-decentralized-crypto-exchanges" class="tile">
+					<img src="images/news5.jpg" alt="Centralized vs. decentralized crypto exchanges
+					">
+					<h4>Centralized vs. decentralized crypto exchanges
+
+					</h4>
+					<p class="desc">There are various types of cryptocurrency exchanges, but the most popular among regular users are centralized exchanges. This is because they are the main avenue for buying cryptocurrencies, especially for first-time crypto investors. What exactly is a centralized crypto exchange?</p>
+					<p class="read-more">View Article</p>
+				</a>
+				<a href="https://www.coindesk.com/business/2024/02/16/jpmorgan-criticizes-coinbases-lack-of-insights-into-its-etf-business/" class="tile">
+					<img src="images/news6.jpg" alt="JPMorgan Analyst Criticizes Coinbase's Lack of Insights Into Its ETF Business
+					">
+					<h4>JPMorgan Analyst Criticizes Coinbase's Lack of Insights Into Its ETF Business
+
+					</h4>
+					<p class="desc">"Management touted its involvement in the U.S. spot Bitcoin ETF as a net positive, but were still uncertain of its true earning impact as we see both positives and negatives," J.P. Morgan analyst Kenneth Worthington wrote in a note on Friday.</p>
+					<p class="read-more">View Article</p>
+				</a>
+			</div>
+		</div>
+	</section>
+
+    <section id="expect">
+      <div class="container">
+		<div class="flexed">
+			<div class="image">
+				<img src="images/moonnacho.png" alt="Moon Nachos">
+			</div>
+			<div class="text">
+				<h2>What to Expect from NACHO</h2>
+				<p>No expectation of profit from the work of others. This is a Public Service Announcment Page to encourage people to get their crypto currency off of centralized exchanges.</p>
+			</div>
+			
+		</div>
+        
+      </div>
+    </section>
+
+
+	<section id="whatsnext">
+		<div class="container">
+			<div class="flexed">
+			<div class="text">
+				<h2>We've Got a Chip on our Shoulder for Centralization</h2>
+			<h2>Hold your Keys - Hold $NACHO</h2>
+			<h3>Whats Next?</h3>
+			<p>Spread the word! We might add a forum to share stories about rug pulls and crypto scams.</p>
+			<p>We hope to add more custom tailored and simple tutorials to get more users to DeFi. Most of all we are just spreading awareness. Enjoy your NACHOS!!!</p>
+			</div>
+			<div class="image">
+					<img src="images/nacho-explosion.png" alt="Nacho Explosion">
+			</div>
+			
+		</div>
+		</div>
+	</section>
+
+	<footer style="padding:20px;">
+		<div class="container">
+			<p><strong>&copy; 2024 - NACHO NACHO NACHO</strong></p>
+		</div>
+	</footer>
+  </body>
+</html>
