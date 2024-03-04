@@ -576,6 +576,7 @@ span.caddress {
 }
 .accordion-item {
   border-color: orange;
+  border-bottom-width: 3px;
 }
 
 .centered {
