@@ -287,7 +287,7 @@
               <img src="images/steps/2.png" alt="step 2" />
             </div>
             <div class="step">
-              <img src="images/steps/3.png" alt="step 3" />
+              <img src="images/steps/3.png?v=2" alt="step 3" />
             </div>
             <div class="step">
               <img src="images/steps/4.png" alt="step 4" />
@@ -298,21 +298,17 @@
           </div>
           <br />
           <h3>Your PSA DeFi Guide to Crypto</h3>
-          <p>
-            Quick guide for advanced users
-            <a
-              href="https://www.youtube.com/watch?v=gFxW016rsX4"
-              target="_blank"
-              >click here</a
-            >
-          </p>
+          <div class="buttonG">
+            <a href="#beginner-guide">Beginners</a>
+            <a href="#advanced-guide">Advanced</a>
+          </div>
 
           <br /><br />
         </div>
-
+        <h3 class="accordian-title">Beginners Guide</h3>
         <div
           class="accordion"
-          id="accordionExample"
+          id="beginner-guide"
           style="max-width: 750px; margin: 0 auto"
         >
           <div class="accordion-item">
@@ -889,6 +885,123 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <h3 class="accordian-title" style="margin-top: 40px">Advanced Guide</h3>
+        <div id="advanced-guide">
+          <div
+            class="accordion"
+            id="advanced-guide"
+            style="max-width: 750px; margin: 0 auto"
+          >
+		  <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#adv1"
+                aria-expanded="false"
+                aria-controls="adv1"
+              >
+                Buy, Swap & Bridge
+              </button>
+            </h2>
+            <div id="adv1" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <h3>Overview Video</h3>
+				<h4>This covers the process of getting ETH over to PulseChain as PLS</h4>
+				<p>After this you can swap token's of your choosing for NACHO. (WPLS, PLSX, DAI, USDC, etc...) Here is the NACHO Token Address to add to your preferred swapping software.                     <code>0x8B5C1c2cB52dfb471c3ed758f6e863364636bd75</code>
+				</p>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/LcY5rhjbEBw?si=zriLkx1gb_nBIKHn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/gFxW016rsX4?si=vW70y0X0Ev8MqLbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>		
+		</div>
+
+
+		<div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#adv2"
+                aria-expanded="false"
+                aria-controls="adv2"
+              >
+                Add Liquidity
+              </button>
+            </h2>
+            <div id="adv2" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <h3>Add Liquidity to NACHO!</h3>
+
+				<p>After this you will earn a portion of transaction fees for providing liquidity.
+				</p>
+
+				<ol>
+					<li>Go to the <a href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/" target="_blank">PULSEX</a> exchange or run the software yourself by downloading it from <a href="https://pulsex.com" target="_blank"></a>pulsex.com</li>
+					<li>Click on Liquidity</li>
+					<li>Supply to the pair of your choice, lets start with WPLS</li>
+					<li>Switch to V2!!! And ensure you stay on V2 the whole time</li>
+					<li>Select NACHO in the top dropdown</li>
+					<li>Select WPLS in the secondary Dropdown</li>
+					<li>You need to then confirm with MetaMask access to your NACHO and WPLS separately.</li>
+					<li>After this step you can confirm adding liquidity</li>
+					<li>You can view your provided liquidity and withdraw it at any time by viewing your liquidity pools</li>
+				</ol>
+
+				<img src="images/howto/addliquidity1.png" alt="Adding Liquidity">
+				<img src="images/howto/addliquidity2.png" alt="Adding Liquidity">
+
+
+              </div>
+            </div>		
+
+
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+				  <button
+					class="accordion-button collapsed"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#adv3"
+					aria-expanded="false"
+					aria-controls="adv3"
+				  >
+					Run the BlockChain on Your Computer
+				  </button>
+				</h2>
+				<div id="adv3" class="accordion-collapse collapse">
+				  <div class="accordion-body">
+					<h3>Let's cut out the middlemen</h3>
+				
+	
+					<p>Its time to stop using other people's front end versions of the software to interact with the blockchain and run it all on your computer instead!
+					</p>
+	
+					<ol>
+						<li><a href="https://app.pulsex.com/" target="_blank"> Download the PulseX Exchange</a> - Swap Tokens, Provide Liquidity, Manage your Liquidity</li>
+						<li><a href="https://bridge.pulsechain.com/" target="_blank">Download The PulseChain Bridge</a> - Get your assets from Ethereum to the PulseChain</li>
+						<li><a href="https://scan.pulsechain.com/" target="_blank">Download the PulseChain Explorer</a> View transactions in real time and see wallet balances and </li>
+						<li><a href="https://launchpad.pulsechain.com/" target="_blank">Download Validator Software</a> - Run Validators to Secure the Network</li>
+					</ol>
+
+					<h3>Here is an example video of how to run the software</h3>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3__lw2xEOHM?si=Hi60KKFaf5rMNF-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	
+				  </div>
+				</div>	
+
+
+
+		</div>
+
         </div>
 
         <div style="margin: 30px auto 0; max-width: 500px">
