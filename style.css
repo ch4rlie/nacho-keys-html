@@ -154,6 +154,15 @@ footer .xicon img {
   align-items: center;
 }
 
+code {
+  padding: 3px 6px;
+  background-color: #f1f1f1;
+  color: orange;
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid #d5d5d5;
+}
+
 /***
 
 Intro
