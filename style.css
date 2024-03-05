@@ -515,6 +515,13 @@ section#news .tile p {
     flex: 0 1 46%;
   }
 }
+@media (max-width: 600px) {
+  #getnacho .step {
+    flex: 0 1 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 #getnacho .item {
   flex: 0 1 45%;
