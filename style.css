@@ -518,8 +518,7 @@ section#news .tile p {
 @media (max-width: 600px) {
   #getnacho .step {
     flex: 0 1 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5%;
   }
 }
 
