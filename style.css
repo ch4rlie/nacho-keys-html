@@ -174,6 +174,9 @@ Intro
 #intro h2 {
   text-align: center;
 }
+#intro h4 {
+  margin-top: 20px;
+}
 #intro h4 a {
   color: #fff;
 }
