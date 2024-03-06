@@ -187,13 +187,13 @@ Intro
 }
 #intro .flexed {
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 #intro .flexed .item {
   flex: 0 1 28%;
   background: #f1f1f1;
   border: 2px solid rgba(0, 0, 0, 0.3);
-  margin: 1.5% 0;
+  margin: 1.5%;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
