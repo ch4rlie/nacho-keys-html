@@ -248,6 +248,7 @@ Intro
 .three-items .flexed {
   justify-content: space-between;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 .three-items .item {
   background: #fff;
@@ -264,16 +265,15 @@ Intro
   font-size: 22px;
   margin: 0 0 20px;
 }
+@media (max-width: 1345px) {
+  .three-items .item {
+    flex: 0 1 48%;
+    margin: 10px 0;
+  }
+}
 @media (max-width: 1000px) {
   .three-items {
     padding: 50px 0;
-  }
-  .three-items .flexed {
-    flex-wrap: wrap;
-  }
-  .three-items .item {
-    flex: 0 1 42%;
-    margin: 10px 0;
   }
 }
 @media (max-width: 850px) {
