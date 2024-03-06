@@ -326,6 +326,9 @@ CENTRALIZED
 #centralized {
   background: #f1f1f1;
 }
+#centralized h2 {
+  margin-bottom: 35px;
+}
 #centralized .flexed {
   justify-content: center;
   align-items: center;
