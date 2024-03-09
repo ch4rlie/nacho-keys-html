@@ -204,20 +204,24 @@ Intro
 #intro .flexed .item h4 {
   margin: 10px 0 0;
   display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  font-family: "Righteous";
 }
-#intro .flexed .item a {
+#intro .large-warning a {
   margin: 0;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: #fff;
   border-radius: 5px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
   transform: scale(1);
   animation: pulse 2s infinite;
   background-color: green;
+  text-decoration: none;
+}
+#intro .large-warning a:hover {
+  background: darkgreen;
 }
 @keyframes pulse {
   0% {
@@ -251,6 +255,9 @@ Intro
   text-align: center;
   margin: 40px auto 0;
   max-width: 750px;
+}
+#intro .large-warning strong {
+  font-size: 1.3em;
 }
 @media (max-width: 900px) {
   #intro .flexed .item {
