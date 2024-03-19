@@ -51,7 +51,7 @@ section {
 }
 header {
   padding: 10px 20px;
-  background: url("images/nav-bg.png");
+  background: #251728;
   object-fit: cover;
 }
 header .flexed {
