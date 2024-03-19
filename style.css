@@ -479,6 +479,9 @@ section#news .tile p {
   margin-top: 0;
   font-size: 16px;
 }
+section#news p.desc {
+  display: none;
+}
 
 @media (max-width: 767px) {
   section#news .tile {
