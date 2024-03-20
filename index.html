@@ -42,6 +42,18 @@
 
       gtag("config", "G-PQQ0SB8317");
     </script>
+
+    <script>
+      let runit = setInterval(updated);
+      let upto = 435;
+      function updated() {
+            let count = document.getElementById("dollar");
+            count.innerHTML = ++upto;
+            if (upto === 862) {
+                clearInterval(runit);
+            }
+        }
+    </script>
   </head>
 
   <body>
@@ -74,6 +86,9 @@
     <section style="padding:30px 0;text-align: center;">
       <img src="images/hero-nacho-8.png" alt="Nacho Keys Nacho Coins">
     </section>
+    <div id="counter">
+      <p>We've helped our friends bring $<span id="dollar">755</span>k to PulseChain so far! Spread the word!</p>
+    </div>
     
 <!--
 <section class="hero">
@@ -260,13 +275,22 @@
           <br />
           <h3>Your PSA DeFi Guide to Crypto</h3>
           <div class="buttonG">
-            <a href="#beginner-guide">Beginners</a>
-            <a href="#advanced-guide">Advanced</a>
+            <a href="#beginner-guide">1st Time in Crypto</a>
+            <a href="#advanced-guide">Comfortable in Crypto</a>
           </div>
 
-          <br /><br />
+          <div class="alert alert-warning" style="font-size:15px;max-width:700px;margin:15px auto;" role="alert">
+            Binance users checkout how to bridge directly from <a href="#advAB" class="collapsed alert-link" id="scrollToadvAB" data-bs-toggle="collapse"
+            data-bs-target="#advAB"
+            aria-expanded="false"
+            aria-controls="advAB"
+            onclick="document.getElementById('advAB').scrollIntoView()"
+            >Binance DAI to PLS on PulseChain</a> and save on fees!
+          </div>
+
+          <br />
         </div>
-        <h3 class="accordian-title">Beginners Guide</h3>
+        <h3 class="accordian-title">1st Time in Crypto</h3>
         <div
           class="accordion"
           id="beginner-guide"
@@ -829,8 +853,7 @@
           </div>
         </div>
 
-        <h3 class="accordian-title" style="margin-top: 40px">Advanced Guide</h3>
-        <div id="advanced-guide">
+        <h3 class="accordian-title" style="margin-top: 40px">Comfortable in Crypto</h3>
           <div
             class="accordion"
             id="advanced-guide"
@@ -868,7 +891,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#advAB"
           aria-expanded="false"
-          aria-controls="adv1"
+          aria-controls="advAB"
         >
           Binance to PulseChain Bridge
         </button>
@@ -978,191 +1001,163 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/LcY5rhjbEBw?si=zriLkx1gb_nBIKHn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	
 	
-				  </div>
-				</div>	
-
-
-
-		</div>
-
-        </div>
-
-        <div style="margin: 30px auto 0; max-width: 500px">
-          <img src="images/nacho-army.jpg" alt="Eat Nachos" />
-        </div>
-      </div>
+				  </div><!--.accordion-body -->
+				</div><!-- .accordion-collapse -->
+        </div><!-- .accordion-item -->	
+        </div><!-- #advanced-guide-->
+      </div><!-- .container -->
     </section>
 
-    <section id="news">
+
+    <section class="faqsec">
       <div class="container">
-        <h2>Who's getting cheesed?</h2>
-        <h3>If they're Nacho Keys they're Nacho Coins</h3>
+        <div class="accordion" id="faq" style="max-width:750px;margin-left:auto;margin-right:auto;">
+          <h2>HELP!!! (FAQ)</h2>
+          <p>Our friends ask us a lot of questions so we compilied some helpful answers to common questions that come up when getting into DeFi on PulseChain. <strong>Friends bugging you?</strong> - send 'em to Nacho!</p>
+          <!--START accordion-item-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqboxOne" aria-expanded="false" aria-controls="faqboxOne">
+                I don't see my tokens in my wallet! HELP!
+              </button>
+            </h2>
+            <div id="faqboxOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                99% of the time you forgot to add the token address in your wallet! So you do have the tokens but its just not showing up because you forgot to add that specific token address. Tokens must be added on each network separately. So don’t forget to add PLS, PLSX, WPLS, NACHO etc as tokens in your wallet on PulseChain. See our guide for how to add tokens to your wallet. 
+              </div>
+            </div>
+          </div><!--END accordion-item-->
 
-        <div class="tiles">
-          <a
-            href="https://www.cnbc.com/2024/02/28/coinbase-users-see-0-balance-after-crypto-trading-app-suffers-glitch.html"
-            target="_blank"
-            class="tile"
-          >
-            <img
-              src="images/news1.jpg"
-              alt="Coinbase users see $0 balance after crypto-trading app suffers glitch
-					"
-            />
-            <h4>
-              Coinbase users see $0 balance after crypto-trading app suffers
-              glitch
-            </h4>
-            <p class="desc">
-              Coinbase suffered a glitch on Wednesday that left many users
-              seeing a zero balance in their account. Bitcoin saw its price drop
-              by about $2,800 in a matter of minutes as reports of an outage
-              surfaced.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.reddit.com/r/CoinBase/comments/14rs865/coinbase_froze_my_account_for_no_reason_please/"
-            target="_blank"
-            class="tile"
-          >
-            <img src="images/news8.jpg" alt="Locked up Crypto" />
-            <h4>
-              Reddit Thread: I have roughly $12k in crypto frozen on Coinbase
-            </h4>
-            <p class="desc">
-              Just noticed this email from Coinbase saying I violated the terms
-              of service and that my account is locked. All I do on Coinbase is
-              buy and hold crypto, with some staking and occasionally selling
-              some of said held crypto.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.forbes.com/sites/digital-assets/2023/11/09/ftx-takes-its-place-among-historys-most-infamous-financial-scandals/?sh=383c8e6e64b7"
-            target="_blank"
-            class="tile"
-          >
-            <img
-              src="images/news2.jpg"
-              alt="FTX Takes Its Place Among History's Most Infamous Financial Scandals
-					"
-            />
-            <h4>
-              FTX Takes Its Place Among History's Most Infamous Financial
-              Scandals
-            </h4>
-            <p class="desc">
-              Last week marked a significant event in the world of
-              cryptocurrency as Sam Bankman-Fried, the once-lauded founder of
-              FTX, a leading cryptocurrency exchange, was found guilty of fraud
-              by a New York jury.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.coindesk.com/policy/2024/03/01/nigeria-government-demands-10b-from-crypto-exchange-binance-bbc/"
-            target="_blank"
-            class="tile"
-          >
-            <img
-              src="images/news3.jpg"
-              alt="Nigeria Government Demands $10B From Crypto Exchange Binance: BBC
-					"
-            />
-            <h4>
-              Nigeria Government Demands $10B From Crypto Exchange Binance: BBC
-            </h4>
-            <p class="desc">
-              Binance set an unofficial exchange rate and contributed to
-              economic disruption in Nigeria, a presidential spokesperson said.
-              The presidential spokesperson denied an amount had been set,
-              People's Gazette reported later.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.reddit.com/r/CoinBase/comments/1b4bfum/7_year_coinbase_user_had_account_closed_and_all/"
-            target="_blank"
-            class="tile"
-          >
-            <img src="images/news7.jpg" alt="Crypto Account Closed" />
-            <h4>
-              7 year coinbase user, had account closed and all assets frozen!
-              Anyone else?
-            </h4>
-            <p class="desc">
-              They have $20k frozen with no response or explanation. Stop
-              telling me you are sorry. I’ve been waiting days for a response
-              and have gotten nothing back! This is completely unacceptable.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.coindesk.com/business/2021/02/25/coinbase-defi-could-hurt-us-and-us-regulations-make-it-hard-to-fight-back/"
-            target="_blank"
-            class="tile"
-          >
-            <img
-              src="images/news4.jpg"
-              alt="Coinbase: DeFi Could Hurt Us and US Regulations Make It Hard to Fight Back"
-            />
-            <h4>
-              Coinbase: DeFi Could Hurt Us and US Regulations Make It Hard to
-              Fight Back
-            </h4>
-            <p class="desc">
-              The top U.S.-based cryptocurrency exchange, Coinbase, is
-              cautioning investors that U.S. regulators may inhibit its ability
-              to compete with rivals in decentralized finance (DeFi).
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://cointelegraph.com/learn/centralized-vs-decentralized-crypto-exchanges"
-            class="tile"
-            target="_blank"
-          >
-            <img
-              src="images/news5.jpg"
-              alt="Centralized vs. decentralized crypto exchanges
-					"
-            />
-            <h4>Centralized vs. decentralized crypto exchanges</h4>
-            <p class="desc">
-              There are various types of cryptocurrency exchanges, but the most
-              popular among regular users are centralized exchanges. This is
-              because they are the main avenue for buying cryptocurrencies,
-              especially for first-time crypto investors. What exactly is a
-              centralized crypto exchange?
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-          <a
-            href="https://www.coindesk.com/business/2024/02/16/jpmorgan-criticizes-coinbases-lack-of-insights-into-its-etf-business/"
-            class="tile"
-            target="_blank"
-          >
-            <img
-              src="images/news6.jpg"
-              alt="JPMorgan Analyst Criticizes Coinbase's Lack of Insights Into Its ETF Business
-					"
-            />
-            <h4>
-              JPMorgan Analyst Criticizes Coinbase's Lack of Insights Into Its
-              ETF Business
-            </h4>
-            <p class="desc">
-              "Management touted its involvement in the U.S. spot Bitcoin ETF as
-              a net positive, but were still uncertain of its true earning
-              impact as we see both positives and negatives," J.P. Morgan
-              analyst Kenneth Worthington wrote in a note on Friday.
-            </p>
-            <p class="read-more">View Article</p>
-          </a>
-        </div>
-      </div>
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox2" aria-expanded="false" aria-controls="faqbox2">
+      How do I get my profits back to my bank?
+    </button>
+  </h2>
+  <div id="faqbox2" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      Don’t worry! Now that you know how to bridge from the Ethereum network to the PulseChain network, getting back is the reverse process of our guide. One option is to swap everything to DAI on PulseChain and bridge the DAI back over to the Ethereum network. Then send your DAI to coinbase, and request a withdrawal straight to your bank account. This is not financial advice!
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox3" aria-expanded="false" aria-controls="faqbox3">
+      What's taking so long?
+    </button>
+  </h2>
+  <div id="faqbox3" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      If there is a lot of volume on the network things can take awhile! Bridging in particular can take quite a while… hours even. This is because quite a few mechanisms must be propagated throughout the blockchain validators to confirm all of the moving pieces. Rest assured its on the way and don’t forget to add the token address to your wallet so you will actually see the coins when they show up!
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox4" aria-expanded="false" aria-controls="faqbox4">
+      My transaction is pending…
+    </button>
+  </h2>
+  <div id="faqbox4" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      Sometimes a transaction doesn’t go through right away and is left in a pending state. If you try to make more transactions they will stack up and wait in order they were put in. This can sometimes be scary but there is a time period in which the transaction will time out if it does not go through successfully. So the best thing is to wait a couple hours and check back!
+
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox5" aria-expanded="false" aria-controls="faqbox5">
+      What's a hot wallet vs cold wallet?
+
+    </button>
+  </h2>
+  <div id="faqbox5" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      A hot wallet means that you are using it for a lot of different things, connecting to DEX’s for swapping, connecting to WEB3 apps and yield farming staking etc. This means the wallet could be vulnerable to being hacked if you are connecting it to a lot of different websites. If you mistakenly connect to a bad or fraudulent website you could end up inadvertently sending your crypto to scammers. So it's always good to keep your core bags (with the bulk of your funds) in a cold wallet! A cold wallet means that you don’t use it for everyday activities and really you only ever use it if you're going to move money back to your bank account. You would ideally buy a cheap computer and literally only set up a wallet on it and then disconnect from the internet and leave it in a secure place. It could also be a dedicated physical device designed for crypto such as a Trezor wallet or Ledger (which are hardware wallets). These are essentially the same as a computer but much smaller and similar to USB drives.
+
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox6" aria-expanded="false" aria-controls="faqbox6">
+      PLS vs PLSX vs HEX
+
+    </button>
+  </h2>
+  <div id="faqbox6" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      Pulse (PLS) is the native token on the PulseChain network. It is used as the currency for  transaction fees to perform transactions on the block chain. Ether (ETH) is the native token on the Ethereum network used to pay for performing transactions on the Ethereum network. So PLS by itself is what is used to pay the fees for doing anything on PulseChain. PulseX (PLSX) is the token of the PulseChain Decentralized Exchange (DEX). PLSX can be staked to earn rewards and provide liquidity to the network. The PLSX token doesn't actually perform any function and it is a forked version of the UNI token of Uniswap. It differs in that it has what's called “buy and burn” meaning everything a transaction is made some of the fee gets burned or removed permanently, thus the total supply of PLSX goes down over time. PLSX will get more scarce over time. HEX is a separate token created to act like a Certificate of Deposit. Users can stake their HEX and earn rewards. Please educate yourself as much as possible and consider reading straight from each website.<br>
+      <ul>
+        <li><a href="https://pulsechain.com" target="_blank">Pulsechain.com</a></li>
+        <li><a href="https://pulsex.com" target="_blank">PulseX.com</a></li>
+        <li><a href="https://hex.com" target="_blank">Hex.com</a></li>
+      </ul>
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox8" aria-expanded="false" aria-controls="faqbox8">
+      What does wrapped mean?
+    </button>
+  </h2>
+  <div id="faqbox8" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      A wrapped token is simply a copy of a token that is pegged to its value. The use case is to move tokens across different networks. To move PLS to the ethereum network, you must wrap it into WPLS. Your original PLS is now locked away and you are given the equivalent amount of WPLS which can be bridged over to other crypto networks. 
+
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox9" aria-expanded="false" aria-controls="faqbox9">
+      What does “From Ethereum” mean on a token?
+
+    </button>
+  </h2>
+  <div id="faqbox9" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      On PulseChain if you bridge an Ethereum token over to its commonly called “Token from Ethereum”. Such as ETH from Ethereum or DAI from Ethereum. PulseChain forked the entire Ethereum network and gave everyone a copy of whatever they had in their wallets at the time of launch from the Ethereum network on the PulseChain Network. This means that there are actually two versions of ETH on PulseChain: ETH from Ethereum which is wrapped ETH bridged over, and then just simply ETH which is the copy of ETH that lives on PulseChain only. Think of it like eETH and pETH. Just always be sure to be using the correct token addresses when interacting with any of these as there are a lot of fakes and frauds out there. 
+
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+
+<!--START accordion-item-->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqbox9" aria-expanded="false" aria-controls="faqbox9">
+      What are the official token addresses on PulseChain?
+    </button>
+  </h2>
+  <div id="faqbox9" class="accordion-collapse collapse">
+    <div class="accordion-body">
+
+    </div>
+  </div>
+</div><!--END accordion-item-->
+
+
+        </div><!-- .accordion #faq-->
     </section>
+
+
 
     <section id="expect">
       <div class="container">

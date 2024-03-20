@@ -131,6 +131,32 @@ HERO
     0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+/**
+
+Counter
+
+**/
+#counter {
+  background: rgba(251, 148, 63, 1);
+  background: radial-gradient(
+    circle,
+    rgba(251, 148, 63, 1) 0%,
+    rgba(252, 188, 28, 1) 100%
+  );
+  font-size: 21px;
+  padding: 10px;
+  color: #fff;
+  font-family: "Righteous", sans-serif;
+  text-align: center;
+}
+#counter p {
+  margin: 0;
+}
+#counter p span {
+  display: inline-block;
+  width: 40px;
+}
+
 /***
 
 Intro
@@ -611,13 +637,43 @@ span.caddress {
   }
 }
 
-.accordion .accordion-button {
+.buttonG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonG a {
+  margin: 5px;
+  padding: 8px 16px;
   background: rgb(251, 148, 63);
   background: linear-gradient(
     90deg,
     rgba(251, 148, 63, 1) 0%,
     rgba(252, 188, 28, 1) 100%
   );
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.buttonG a:last-child {
+  background: rgb(100 228 97);
+  background: linear-gradient(90deg, rgb(25 188 112) 0%, rgb(100 228 97) 100%);
+}
+.buttonG a:hover {
+  box-shadow: 0px 0px 10px rgb(252, 181, 28);
+}
+.accordian-title {
+  max-width: 750px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Righteous";
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.accordion .accordion-button {
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: "Roboto Condensed", sans-serif;
@@ -625,17 +681,41 @@ span.caddress {
   font-size: 0.8em;
   color: #fff;
 }
-.accordion .accordion-button:nth-child(even) {
+.accordion-item {
+  border-bottom-width: 3px;
+}
+
+#beginner-guide .accordion-button {
+  background: rgb(251, 148, 63);
   background: linear-gradient(
     90deg,
-    rgba(252, 188, 28, 1) 0%,
-    rgba(251, 148, 63, 1) 100%
+    rgba(251, 148, 63, 1) 0%,
+    rgba(252, 188, 28, 1) 100%
   );
-  background: #000;
 }
-.accordion-item {
+#beginner-guide .accordion-item {
   border-color: orange;
-  border-bottom-width: 3px;
+}
+
+#advanced-guide .accordion-button {
+  background: rgb(100 228 97);
+  background: linear-gradient(90deg, rgb(25 188 112) 0%, rgb(100 228 97) 100%);
+}
+
+#advanced-guide .accordion-item {
+  border-color: rgb(54 197 128);
+}
+
+#faq .accordion-button {
+  background: rgb(25 173 188);
+  background: linear-gradient(90deg, rgb(25 173 188) 0%, rgb(97 152 228) 100%);
+}
+#faq .accordion-item {
+  border-color: #24b4c4;
+}
+
+section.faqsec {
+  background: #f1f1f1;
 }
 
 .centered {
@@ -751,38 +831,6 @@ span.caddress {
   100% {
     background-position: top right;
   }
-}
-
-.buttonG {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.buttonG a {
-  margin: 5px;
-  padding: 8px 16px;
-  background-color: orange;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.buttonG a:last-child {
-  background-color: darkorange;
-}
-.buttonG a:hover {
-  box-shadow: 0px 0px 10px rgb(252, 181, 28);
-}
-#advanced-guide {
-}
-.accordian-title {
-  max-width: 750px;
-  margin: 0 auto;
-  display: block;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: "Righteous";
-  margin-bottom: 5px;
-  color: gray;
 }
 
 /**
