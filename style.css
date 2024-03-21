@@ -650,6 +650,11 @@ span.caddress {
   text-decoration: none;
   transition: 300ms;
 }
+@media (max-width: 600px) {
+  .buttonG a {
+    font-size: 13px;
+  }
+}
 .buttonG a.green {
   background: rgb(100 228 97);
   background: linear-gradient(90deg, rgb(25 188 112) 0%, rgb(100 228 97) 100%);
