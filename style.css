@@ -894,3 +894,15 @@ nav.trading a img {
   height: auto;
   padding-right: 5px;
 }
+
+/***
+
+TESTIMONIALS
+
+
+***/
+.testimonials .card-title {
+  font-family: "Righteous";
+  font-size: 30px;
+  color: Orange;
+}
