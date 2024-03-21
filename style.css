@@ -649,6 +649,7 @@ span.caddress {
   border-radius: 5px;
   text-decoration: none;
   transition: 300ms;
+  line-height: 1;
 }
 @media (max-width: 600px) {
   .buttonG a {
