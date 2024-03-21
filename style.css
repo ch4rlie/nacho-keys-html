@@ -648,13 +648,24 @@ span.caddress {
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
+  transition: 300ms;
 }
-.buttonG a:last-child {
+.buttonG a.green {
   background: rgb(100 228 97);
   background: linear-gradient(90deg, rgb(25 188 112) 0%, rgb(100 228 97) 100%);
 }
+.buttonG a.blue {
+  background: rgb(25 173 188);
+  background: linear-gradient(90deg, rgb(25 173 188) 0%, rgb(97 152 228) 100%);
+}
 .buttonG a:hover {
   box-shadow: 0px 0px 10px rgb(252, 181, 28);
+}
+.buttonG a.green:hover {
+  box-shadow: 0px 0px 10px rgb(25 188 112);
+}
+.buttonG a.blue:hover {
+  box-shadow: 0px 0px 10px rgb(25 173 188);
 }
 .accordian-title {
   max-width: 750px;
