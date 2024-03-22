@@ -125,8 +125,8 @@ Counter
   background: rgba(251, 148, 63, 1);
   background: radial-gradient(
     circle,
-    rgba(251, 148, 63, 1) 0%,
-    rgba(252, 188, 28, 1) 100%
+    rgb(255 152 9 / 69%) 0%,
+    rgb(255 189 40) 100%
   );
   font-size: 21px;
   padding: 10px;
@@ -138,8 +138,11 @@ Counter
 #counter p {
   margin: 0;
 }
-#counter p span {
-  display: inline-block;
+#counter span {
+  color: #03b92d;
+  font-size: 25px;
+}
+#counter p span#dollar {
   width: 40px;
 }
 @media (max-width: 767px) {
